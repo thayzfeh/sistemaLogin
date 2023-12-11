@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(104, 104, 228);
+}
+main{
+    width: 50vw;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #0000003a;
+    margin: 50px auto 50px auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+main > h1{
+    font-family: cursive;
+    font-size: 2em;
+    text-align: center;
+}
+article.article{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(37, 37, 37, 0.863);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+    border-radius: 5px;
+    gap: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px #0000003a;
+}
+img.article{
+    width: 60%;
+    height: 200px;
+    object-fit: cover;
+}
+.article a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+.article:hover a{
+    text-decoration: underline;
+}
