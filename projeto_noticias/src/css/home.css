@@ -1,5 +1,42 @@
 body{
-    background-color: rgb(104, 104, 228);
+    background-color: rgb(39, 39, 39);
+}
+.header{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.header  p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+.header  img{
+    width: 50px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header > button{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.header > button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #0000003a;
+}
+.header > button:active{
+    box-shadow: none;
+    color: rgb(238, 238, 238);
 }
 main{
     width: 50vw;

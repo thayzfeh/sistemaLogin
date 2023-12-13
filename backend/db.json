@@ -1,19 +1,10 @@
 {
-    "products":[
-        {
-            "id":1,
-            "name": "Caneta BIC preta",
-            "price": 5.89
-        },
-        {
-            "id":2,
-            "name": "MacBook PRO",
-            "price": 12000.00
-        },
-        {
-            "id":2,
-            "name": "MacBook PRO",
-            "price": 5000.89
-        }
-    ]
+  "accounts": [
+    {
+      "username": "thayzfeh",
+      "email": "thayferreira1909@gmail.com",
+      "password": "1234",
+      "id": 1
+    }
+  ]
 }
